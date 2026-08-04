@@ -113,6 +113,12 @@ const ProjectCard: React.FC<{
 export default function ProjectsSection() {
   const projects = [
     {
+      title: "Semantic Music Discovery Engine",
+      description: "Built a semantic mood-based music search engine as independent preparation for production vector database work, implementing a full embed, store, query pipeline, which generated embeddings for a curated 5000-song dataset using all-MiniLM-L6-v2 (sentence-transformers), indexed in Qdrant for semantic similarity search.",
+      technologies: ["Python", "Sentence-Transformers", "Qdrant", "Streamlit"],
+      link: "https://github.com/shiveesrivastava/moodify", 
+    },
+    {
       title: "Competitor Analysis System",
       description: "Backend system that analyzes a given website URL to identify and generate top competitor websites using web scraping and automated data extraction. Designed structured API workflows and integrated MongoDB for efficient storage and retrieval of analyzed insights.",
       technologies: ["Node.js", "Express.js", "MongoDB", "Web Scraping"],

@@ -102,26 +102,18 @@ export default function ExperienceSection() {
       organization: "BambooBox, Bengaluru",
       period: "June 2025 - August 2025",
       achievements: [
-        "Contributed to backend development for 2 internal web applications, including an email management system and a competitor analysis tool, working on API design, server-side logic and database integration across multiple modules.",
-        "Built and tested 10+ REST API endpoints using a Node.js-based stack and integrated MongoDB for structured data storage, working both independently and within a 3-member development team.",
+        "Developed backend features for internal web applications, including an email management system and a competitor analysis platform, focusing on API design, server-side logic and database integration.",
+        "Implemented and tested 10+ REST API endpoints using a Node.js-based stack and integrated MongoDB for structured storage and retrieval in a collaborative 3-member development team.",
       ],
     },
     {
-      title: "Core Committee Member",
-      organization: "IEEE RAS, RNSIT, Bengaluru",
-      period: "April 2025 - Present",
+      title: "AI/ML Intern",
+      organization: "Endee Labs",
+      period: "June 2026 - Present",
       achievements: [
-        "Created and authored 15+ coding questions for preliminary rounds and co-organized a department-level coding competition with 150+ student participants.",
-        "Supported event planning, evaluation, and smooth execution of the competition across multiple rounds.",
-      ],
-    },
-    {
-      title: "Technical Team Member",
-      organization: "InnovAIton, RNSIT, Bengaluru",
-      period: "August 2024 - Present",
-      achievements: [
-        "Conducted hands-on, peer-to-peer workshops teaching 4 Data Structures and Algorithms topic fundamentals to 50+ junior students.",
-        "Strengthened participants' conceptual understanding through practical examples and guided problem-solving sessions.",
+        "Evaluated 5 retrieval/embedding methods against a 20-question, 4-category benchmark (exact lookup, analytical, semantic, cross-document) on a synthetic multi-table and document dataset, then designed and built a schema-linking retrieval pipeline inspired by the RASL paper (arXiv:2507.23104), improving retrieval performance across 8 progressively refined methods to achieve 0.825 Recall@1 and 0.975 Recall@3 on the final approach.",
+        "Authored a technical blog post detailing the methodology, results and citations, published on the company’s official website, and helped integrate the retrieval pipeline into the production codebase following existing architectural conventions.",
+        "Currently researching image embedding models such as DINOv2/v3, CLIP and SigLIP2, analyzing architecture, loss functions and training methodology per model with detailed citations for a potential research paper.",
       ],
     },
   ];

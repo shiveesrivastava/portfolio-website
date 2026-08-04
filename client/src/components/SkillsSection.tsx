@@ -104,23 +104,27 @@ export default function SkillsSection() {
   const skillCategories = [
     {
       title: "Programming Languages",
-      skills: ["Python", "Java", "C", "Javascript"],
+      skills: ["Python", "Java", "C", "C++", "JavaScript"],
     },
     {
-      title: "Web and Software Development",
-      skills: ["HTML", "CSS", "Node.js", "Express.js", "RESTful APIs", "Web Scraping", "Full Stack Development"],
+      title: "Machine Learning and Deep Learning",
+      skills: ["Vision Transformers (ViT)", "Sentence-Transformers", "Embeddings", "Vector Databases"],
     },
     {
-      title: "Data and AI Tools",
-      skills: ["SQL", "MongoDB", "NumPy", "Pandas", "Matplotlib", "NLTK", "Tkinter", "Power BI", "Tableau"],
+      title: "Research and Retrieval Systems",
+      skills: ["Semantic Search", "RASL-inspired Schema Linking", "RAG pipelines", "Recall@k benchmarking"],
     },
     {
-      title: "Developer Tools and Platforms",
-      skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Postman", "Linux", "Unix"],
+      title: "Web and Backend",
+      skills: ["Node.js", "Express.js", "RESTful APIs", "FastAPI"],
     },
     {
-      title: "Design and Productivity Tools",
-      skills: ["Figma", "Canva", "Adobe After Effects"],
+      title: "Databases and Cloud",
+      skills: ["SQL", "MongoDB", "Supabase", "Redis"],
+    },
+    {
+      title: "Developer Tools",
+      skills: ["Git", "GitHub", "VS Code", "Jupyter Notebook", "Postman"],
     },
   ];
 

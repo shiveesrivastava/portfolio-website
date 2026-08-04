@@ -79,10 +79,9 @@ export default function AboutSection() {
         </div>
 
         {/* Content */}
-        {/* Content */}
         <div className="space-y-8">
           <BlurText
-            text="I'm a full-stack developer with a strong focus on backend systems and intelligent applications, passionate about building solutions that are both efficient and meaningful. With experience in Node.js, MongoDB and data-driven tools, I enjoy turning complex ideas into structured, real-world systems."
+            text="I'm a Computer Science (AI & ML) student passionate about building intelligent systems that solve real-world problems. My work sits at the intersection of machine learning, backend engineering and information retrieval, with a particular interest in semantic search, vector databases, retrieval-augmented systems and computer vision."
             delay={40}
             animateBy="words"
             direction="top"
@@ -91,7 +90,7 @@ export default function AboutSection() {
           />
 
           <BlurText
-            text="Through my work, I've focused on writing clean code, designing reliable architectures and solving problems that go beyond the surface. Beyond development, I've contributed to tech communities by mentoring students and creating coding challenges, which has strengthened both my technical depth and ability to simplify complex concepts."
+            text="I love building projects that combine strong engineering with modern AI. From developing semantic search engines powered by vector databases to architecting FastAPI backends for multi-model computer vision pipelines, I enjoy turning ambitious ideas into scalable systems."
             delay={40}
             startDelay={1900}
             animateBy="words"
@@ -99,14 +98,14 @@ export default function AboutSection() {
             className="text-lg md:text-xl leading-relaxed"
             style={{ color: "#513229", fontFamily: "'Antic', sans-serif" }}
           />
-      
+
           <BlurText
-            text="Let's build something amazing together."
-            delay={100}
+            text="Beyond writing code, I'm constantly learning, experimenting with emerging AI technologies and contributing to technical blogs and research. My goal is to build AI systems that are not only intelligent but also reliable, efficient and impactful."
+            delay={40}
             startDelay={3900}
             animateBy="words"
             direction="top"
-            className="text-lg md:text-xl leading-relaxed font-semibold"
+            className="text-lg md:text-xl leading-relaxed"
             style={{ color: "#513229", fontFamily: "'Antic', sans-serif" }}
           />
         </div>
